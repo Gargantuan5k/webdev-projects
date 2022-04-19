@@ -1,0 +1,25 @@
+#buzzer-btn {
+    background: rgb(185, 21, 21);
+    border: 5px solid #000;
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+    place-content: center;
+}
+
+#buzzer-btn:active {
+    background: rgb(199, 77, 77);
+}
